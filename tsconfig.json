@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "outDir": "/public_html/theme/jhosuaTheme/js/mainscript.js",
+    "noImplicitAny": true,
+    "allowJs": true,  
+    // "module": "commonjs",
+    "strict": true,   
+    "target": "es6",   
+  }
+}
