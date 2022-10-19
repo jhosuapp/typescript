@@ -4,16 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="/public_html/theme/jhosuaTheme/css/main.css">
+    <title>Document</title>
+    <style>
+        #listData{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+    </style>
 </head>
 <body>
+
     
-    <input type="text" id="filter">
-    <div id="filter_list">
+    <div id="listData">
 
     </div>
-
+    <button id="showMore" data-count="1">mostrar más</button>
 
     <script type="text/javascript" src="/public_html/theme/jhosuaTheme/js/mainscript.js"></script>
 </body>
